@@ -21,6 +21,18 @@ cd ..
 Add-Content -Path $PROFILE -Value "`nImport-Module -Name NoitaBackup`n"
 ```
 
+## 使い方
+
+Powershellでコマンドを使用してください。
+
+```ps1
+# バックアップ (Document\noita\backup) にセーブデータを保存
+Backup-Noita
+
+# バックアップからセーブデータを復元
+Restore-Noita
+```
+
 ## 簡単な解説
 
 Powershellに詳しくない人向けの解説です。
